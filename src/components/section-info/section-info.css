@@ -1,6 +1,6 @@
 .section-info {
     margin-top: 60px;
-    background: #9cfc47;
+    background: hsla(240, 65%, 55%, 1);
     color: #fff;
     padding: 100px 20px;
     text-align: center;
@@ -36,5 +36,5 @@
 }
 
 .section-info.dark-mode {
-    background: #68c714;
+    background: hsla(240, 65%, 43%, 1);
 }
