@@ -127,16 +127,16 @@
     background-color: #90f000;
 }
 
-	.moon {
+	#darkModeToggle.moon {
     	display: block;
 	}
-	.sun {
+	#darkModeToggle.sun {
     	display: none;
 	}
-	:global(body.dark-mode) .moon {
+	:global(body.dark-mode) #darkModeToggle.moon {
     	display: none;
 	}
-	:global(body.dark-mode) .sun {
+	:global(body.dark-mode) #darkModeToggle.sun {
     	display: block;
 	}
   
