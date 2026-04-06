@@ -31,7 +31,7 @@ const RecentChangesComponent = function (props) {
         <div id="recent-changes">
             <div className="header">
                 <span>{Utils.formatMessage(messages.recentChangesText, intl, "Recent changes")}</span>
-                <a href="https://github.com/dinosaurmod" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/gaiamod-main" target="_blank" rel="noopener noreferrer">
                     {Utils.formatMessage(messages.seeMoreText, intl, "See more")}
                 </a>
             </div>
