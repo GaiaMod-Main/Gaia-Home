@@ -1,22 +1,28 @@
 import WhackVioThumb from './WhackVioThumb.png';
 import DominoThumb from './DominoThumb.png';
 import ILoveYouThumb from './ILoveYouThumb.png';
+import ILoveYouThumb from './ChatGPTThumb.png';
 
 const exampleCards = [
     {
         name: "Whack-A-Vio",
         iconURL: WhackVioThumb,
-        href: "https://dinosaurmod.github.io/?project_url=https://raw.githubusercontent.com/Dinosaurmod/examples/main/src/dino-files/DinoClicker.dino"
+        href: "https://gaiamod-main.github.io/?project_url=https://github.com/GaiaMod-Main/examples/raw/refs/heads/main/src/gaia-files/Whack-A-Vio.gaia"
     },
     {
         name: "Domino and Disco Goes To The Walmart Store",
         iconURL: DominoThumb,
-        href: "https://dinosaurmod.github.io/?project_url=https://raw.githubusercontent.com/Dinosaurmod/examples/main/src/dino-files/SwearDetector.dino"
+        href: "https://gaiamod-main.github.io/?project_url=https://github.com/GaiaMod-Main/examples/raw/refs/heads/main/src/gaia-files/Domino%20and%20Disco%20Goes%20To%20The%20Walmart%20Store.gaia"
     },
     {
         name: "Someone Loves You!",
         iconURL: ILoveYouThumb,
-        href: "https://dinosaurmod.github.io/?project_url=https://raw.githubusercontent.com/Dinosaurmod/examples/main/src/dino-files/SwearDetector.dino"
+        href: "https://gaiamod-main.github.io/?project_url=https://github.com/GaiaMod-Main/examples/raw/refs/heads/main/src/gaia-files/Someone%20Loves%20You!.gaia"
+    },
+    {
+        name: "ChatGPT",
+        iconURL: ILoveYouThumb,
+        href: "https://gaiamod-main.github.io/?project_url=https://github.com/GaiaMod-Main/examples/raw/refs/heads/main/src/gaia-files/ChatGPT.gaia"
     }
 ]
 
