@@ -1,18 +1,21 @@
-import WhackVioThumb from './DinoClickerThumb.png';
-import DominoThumb from './SwearDetectorThumb.png';
-import MiniGaiaClickerThumb from './SwearDetectorThumb.png';
-import ChatGPTThumb from './SwearDetectorThumb.png';
-import ILoveYouThumb from './SwearDetectorThumb.png';
+import WhackVioThumb from './WhackVioThumb.png';
+import DominoThumb from './DominoThumb.png';
+import ILoveYouThumb from './ILoveYouThumb.png';
 
 const exampleCards = [
     {
-        name: "Whack-A-Viorel",
-        iconURL: DinoClickerThumb,
+        name: "Whack-A-Vio",
+        iconURL: WhackVioThumb,
         href: "https://dinosaurmod.github.io/?project_url=https://raw.githubusercontent.com/Dinosaurmod/examples/main/src/dino-files/DinoClicker.dino"
     },
     {
-        name: "Swear Detector",
-        iconURL: SwearDetectorThumb,
+        name: "Domino and Disco Goes To The Walmart Store",
+        iconURL: DominoThumb,
+        href: "https://dinosaurmod.github.io/?project_url=https://raw.githubusercontent.com/Dinosaurmod/examples/main/src/dino-files/SwearDetector.dino"
+    }
+    {
+        name: "Someone Loves You!",
+        iconURL: ILoveYouThumb,
         href: "https://dinosaurmod.github.io/?project_url=https://raw.githubusercontent.com/Dinosaurmod/examples/main/src/dino-files/SwearDetector.dino"
     }
 ]
