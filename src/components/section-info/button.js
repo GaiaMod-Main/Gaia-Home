@@ -1,5 +1,5 @@
 function openEditor() {
-    window.location.href = "https://dinosaurmod.github.io/editor.html"
+    window.location.href = "https://gaiamod-main.github.io/"
 }
 
 export default openEditor
