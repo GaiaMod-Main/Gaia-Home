@@ -38,7 +38,7 @@ const messages = defineMessages({
     },
     examplesPageText: {
         id: "home.section.examplesmessage",
-        defaultMessage: 'Welcome to the Projects Page of GaiaMod!',
+        defaultMessage: 'This is the examples page of GaiaMod. You should try projects at hand!',
         description: 'examples text'
     },
 })
@@ -98,8 +98,8 @@ const GUIComponent = props => {
                         {...componentProps}
                     />
                     <section>
-                        <h1><img src={BRAND_LOGO} width="70" alt="Logo"/></h1>
-                        <p>{isExamplesPage ? Utils.formatMessage(messages.examplesPageText, intl, "This is the examples page of GaiaMod. You should try projects at hand!!") : Utils.formatMessage(messages.noMentionText, intl, "Please don\'t mention GaiaMod on Scratch! We have different rules compared to the ones on Scratch!")}</p>
+                        <h1><img src={BRAND_LOGO} width="70%" alt="Logo"/></h1>
+                        <p>{isExamplesPage ? Utils.formatMessage(messages.examplesPageText, intl, "This is the examples page of GaiaMod. You should try projects at hand!") : Utils.formatMessage(messages.noMentionText, intl, "Please don\'t mention GaiaMod on Scratch! We have different rules compared to the ones on Scratch!")}</p>
                     </section>
                     {(!!isExamplesPage && (
                         <React.Fragment>
