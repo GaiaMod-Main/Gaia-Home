@@ -30,6 +30,11 @@ const messages = defineMessages({
         defaultMessage: 'Status',
         description: 'status button title'
     },
+    zoneText: {
+        id: "home.menubar.zone",
+        defaultMessage: 'Gaia Zone',
+        description: 'button title'
+    },
 })
 
 const MenuBarComponent = function (props) {
@@ -86,6 +91,9 @@ const MenuBarComponent = function (props) {
                 </li>
                 <li className="menu-bar_li">
                     <a className="menu-bar_a" href="https://gaiamod.betteruptime.com/">{intl ? intl.formatMessage(messages.statusText) : "Status"}</a>
+                </li>
+                <li className="menu-bar_li">
+                    <a className="menu-bar_a" href="https://gaiawindwave90.github.io/">{intl ? intl.formatMessage(messages.zoneText) : "Gaia Zone"}</a>
                 </li>
                 <li className="menu-bar_li">
                     {/*<button id="menubar_searchIcon">&#128269;</button>
