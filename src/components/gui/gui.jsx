@@ -32,7 +32,7 @@ const messages = defineMessages({
         description: 'welcome text'
     },
     noMentionText: {
-        id: "home.section.nometion",
+        id: "home.section.nomention",
         defaultMessage: 'Please don\'t mention GaiaMod on Scratch! We have different rules compared to the ones on Scratch!',
         description: 'no mentioning text'
     },

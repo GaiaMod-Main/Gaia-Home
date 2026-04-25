@@ -15,7 +15,7 @@ const exampleCards = [
         href: "https://gaiamod-main.github.io/?project_url=https://github.com/GaiaMod-Main/examples/raw/refs/heads/main/src/gaia-files/Domino%20and%20Disco%20Goes%20To%20The%20Walmart%20Store.gaia"
     },
     {
-        name: "Someone Loves You!",
+        name: "Secret Message",
         iconURL: ILoveYouThumb,
         href: "https://gaiamod-main.github.io/?project_url=https://github.com/GaiaMod-Main/examples/raw/refs/heads/main/src/gaia-files/Someone%20Loves%20You!.gaia"
     },
