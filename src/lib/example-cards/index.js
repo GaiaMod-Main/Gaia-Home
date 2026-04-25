@@ -12,7 +12,7 @@ const exampleCards = [
         name: "Domino and Disco Goes To The Walmart Store",
         iconURL: DominoThumb,
         href: "https://dinosaurmod.github.io/?project_url=https://raw.githubusercontent.com/Dinosaurmod/examples/main/src/dino-files/SwearDetector.dino"
-    }
+    },
     {
         name: "Someone Loves You!",
         iconURL: ILoveYouThumb,
