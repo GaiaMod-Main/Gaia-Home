@@ -1,0 +1,1 @@
+export const BRAND_LOGO = "https://gaiamod-main.github.io/Gaia-Home/logo.png";

@@ -14,6 +14,7 @@ import SectionLinks from '../../containers/section-links.jsx';
 import WhatsNew from '../../containers/whats-new.jsx';
 
 import {BRAND_NAME} from '../../lib/brand.js';
+import {BRAND_LOGO} from '../../lib/logo.js';
 import Utils from '../../lib/utils';
 
 import exampleCards from '../../lib/example-cards';
@@ -30,9 +31,14 @@ const messages = defineMessages({
         defaultMessage: 'Welcome to the Home Page of GaiaMod!',
         description: 'welcome text'
     },
+    noMentionText: {
+        id: "home.section.nometion",
+        defaultMessage: '<i>Please don\'t mention GaiaMod on Scratch! We have different rules compared to the ones on Scratch!</i>',
+        description: 'no mentioning text'
+    },
     examplesPageText: {
         id: "home.section.examplesmessage",
-        defaultMessage: 'Welcome to the Examples Page of GaiaMod!',
+        defaultMessage: 'Welcome to the Projects Page of GaiaMod!',
         description: 'examples text'
     },
 })
@@ -54,6 +60,7 @@ ExampleCard.propTypes = {
     href: PropTypes.string.isRequired,
     iconURL: PropTypes.any.isRequired,
 }
+
 
 const GUIComponent = props => {
     const {
@@ -91,8 +98,9 @@ const GUIComponent = props => {
                         {...componentProps}
                     />
                     <section>
-                        <h1>{BRAND_NAME}</h1>
-                        <p>{isExamplesPage ? Utils.formatMessage(messages.examplesPageText, intl, "Welcome to the Examples Page of GaiaMod!") : Utils.formatMessage(messages.homePageText, intl, "Welcome to the Home Page of GaiaMod!")}</p>
+                        //<h1>{BRAND_NAME}</h1>
+                        <h1><img src={BRAND_LOGO} alt="Logo"/></h1>
+                        <p>{isExamplesPage ? Utils.formatMessage(messages.examplesPageText, intl, "Welcome to the Scratch Page of GaiaMod!") : Utils.formatMessage(messages.noMentionText, intl, "<i>Please don\'t mention GaiaMod on Scratch! We have different rules compared to the ones on Scratch!</i>")}</p>
                     </section>
                     {(!!isExamplesPage && (
                         <React.Fragment>
