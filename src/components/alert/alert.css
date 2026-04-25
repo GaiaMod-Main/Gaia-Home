@@ -1,0 +1,46 @@
+.alert-banner {
+  padding: 20px 0;
+  background: #1a17a8 none repeat scroll 0% 50%;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.alert-banner * {
+}
+
+.alert-banner > p {
+  position: relative;
+}
+
+.alert-banner img {
+  height: 32px;
+  margin-right: 12px;
+}
+
+.alert-banner button {
+  border: none;
+  margin: 0 6px 0 12px;
+  padding: 6px 16px;
+  background: white none repeat scroll 0%;
+  cursor: pointer;
+  font-weight: bold;
+  color: #7650a8;
+  font-size: 16px;
+}
+
+.alert-banner button:active {
+  background: #d8d8d8 none repeat scroll 0%;
+}
+
+.alert-dismiss {
+  background: transparent url(https://electramod-home.vercel.app/dismiss.svg) repeat scroll 0% ! important;
+  position: absolute;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+}
+
+.alert-dismiss:active {
+}

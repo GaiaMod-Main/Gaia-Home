@@ -43,7 +43,6 @@ const MenuBarComponent = function (props) {
 
     const languagesNodes = [];
 	
-        const isDarkModeIcon = {moonIcon}
 
     languagesArray.forEach(item => {
         languagesNodes.push(
