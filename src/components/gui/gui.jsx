@@ -41,6 +41,36 @@ const messages = defineMessages({
         defaultMessage: 'This is the examples page of GaiaMod. You should try projects at hand!',
         description: 'examples text'
     },
+    artPageText: {
+        id: "home.section.artmessage",
+        defaultMessage: 'This is my art page. Feel free to view!',
+        description: 'art text'
+    },
+    videoPageText: {
+        id: "home.section.videomessage",
+        defaultMessage: 'This is my videos page. You can watch them if you want!',
+        description: 'videos text'
+    },
+    spritePageText: {
+        id: "home.section.spritemessage",
+        defaultMessage: 'This is my page where I showcase my vector sprites.',
+        description: 'sprites text'
+    },
+    musicPageText: {
+        id: "home.section.musicmessage",
+        defaultMessage: 'This is my page where I showcase music that I made. Feel free to hear them!',
+        description: 'music text'
+    },
+    writingsPageText: {
+        id: "home.section.writingsmessage",
+        defaultMessage: 'This is my page where I showcase my writings like transcripts or stories.',
+        description: 'writings text'
+    },
+    linksPageText: {
+        id: "home.section.linksmessage",
+        defaultMessage: 'You should see links that weren\'t seen in the footer or in the sections.',
+        description: 'links text'
+    },
 })
 
 const ExampleCard = props => {

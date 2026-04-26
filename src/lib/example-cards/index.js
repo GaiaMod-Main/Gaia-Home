@@ -2,6 +2,9 @@ import WhackVioThumb from './WhackVioThumb.png';
 import DominoThumb from './DominoThumb.png';
 import ILoveYouThumb from './ILoveYouThumb.png';
 import ChatGPTThumb from './ChatGPTThumb.png';
+import DefaultThumb from './PlaceholderThumb.png';
+
+//Vroom attack lol
 
 const exampleCards = [
     {
