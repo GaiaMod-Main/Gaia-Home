@@ -2,11 +2,28 @@ import WhackVioThumb from './WhackVioThumb.png';
 import DominoThumb from './DominoThumb.png';
 import ILoveYouThumb from './ILoveYouThumb.png';
 import ChatGPTThumb from './ChatGPTThumb.png';
+import MiniGaiaClickerThumb from './MiniGaiaClickerThumb.png';
+import DistortedKaineThumb from './DistortedKaineThumb.png';
 import DefaultThumb from './PlaceholderThumb.png';
 
 //Vroom attack lol
 
 const exampleCards = [
+    {
+        name: "Mini-Gaia Clicker",
+        iconURL: MiniGaiaClickerThumb,
+        href: "https://gaiamod-main.github.io/?project_url=https://raw.githubusercontent.com/GaiaMod-Main/examples/refs/heads/main/src/gaia-files/Mini-Gaia%20Clicker.gaia"
+    },
+    {
+        name: "Distorted Kaine",
+        iconURL: DistortedKaineThumb,
+        href: "https://gaiamod-main.github.io/?project_url=https://raw.githubusercontent.com/GaiaMod-Main/examples/refs/heads/main/src/gaia-files/Distorted%20Kaine.gaia.gaia"
+    },
+    {
+        name: "ChatGPT",
+        iconURL: ChatGPTThumb,
+        href: "https://gaiamod-main.github.io/?project_url=https://raw.githubusercontent.com/GaiaMod-Main/examples/refs/heads/main/src/gaia-files/ChatGPT.gaia"
+    },
     {
         name: "Whack-A-Vio",
         iconURL: WhackVioThumb,
@@ -21,11 +38,6 @@ const exampleCards = [
         name: "Secret Message",
         iconURL: ILoveYouThumb,
         href: "https://gaiamod-main.github.io/?project_url=https://raw.githubusercontent.com/GaiaMod-Main/examples/refs/heads/main/src/gaia-files/Someone%20Loves%20You!.gaia"
-    },
-    {
-        name: "ChatGPT",
-        iconURL: ChatGPTThumb,
-        href: "https://gaiamod-main.github.io/?project_url=https://raw.githubusercontent.com/GaiaMod-Main/examples/refs/heads/main/src/gaia-files/ChatGPT.gaia"
     }
 ]
 
