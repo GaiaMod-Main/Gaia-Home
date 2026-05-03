@@ -1,13 +1,13 @@
-import blockFonts from './firstday.png'
+import blockFonts from './colored.png'
 
 export default {
-    message: "A web was born!",
+    message: "Yay! I added an accent feature taken from Dinosaurmod!",
     author: "By Gaiawindwave90",
     picture: blockFonts,
     avatarUrl: "https://avatars.githubusercontent.com/u/4597024?v=4&size=40",
-    secondMessage: "Sorry because I was having a meltdown over something...",
+    secondMessage: "On the second thought, I have to make more of this.",
     pictureData: {
-        width: "450px",
-        height: "200px"
+        width: "640px",
+        height: "360px"
     }
 }
