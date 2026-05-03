@@ -7,7 +7,7 @@ export default {
     avatarUrl: "https://avatars.githubusercontent.com/u/4597024?v=4&size=40",
     secondMessage: "On the second thought, I have to make more of this.",
     pictureData: {
-        width: "640px",
-        height: "360px"
+        width: "400px",
+        height: "225px"
     }
 }
